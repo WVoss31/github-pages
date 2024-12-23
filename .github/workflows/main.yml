@@ -30,4 +30,4 @@ jobs:
         with:
           branch: gh-pages
           folder: .output/public
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_SECRET }}
