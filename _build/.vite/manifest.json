@@ -1,0 +1,72 @@
+{
+  "_Counter-P0Z5F4h9.js": {
+    "file": "assets/Counter-P0Z5F4h9.js",
+    "name": "Counter",
+    "imports": [
+      "_routing-uSd0btGh.js"
+    ]
+  },
+  "_components-BrlkEbL6.js": {
+    "file": "assets/components-BrlkEbL6.js",
+    "name": "components",
+    "imports": [
+      "_routing-uSd0btGh.js"
+    ]
+  },
+  "_routing-uSd0btGh.js": {
+    "file": "assets/routing-uSd0btGh.js",
+    "name": "routing"
+  },
+  "src/routes/[...404].tsx?pick=default&pick=$css": {
+    "file": "assets/_...404_-BEykKi53.js",
+    "name": "_...404_",
+    "src": "src/routes/[...404].tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_routing-uSd0btGh.js",
+      "_components-BrlkEbL6.js"
+    ]
+  },
+  "src/routes/about.tsx?pick=default&pick=$css": {
+    "file": "assets/about-CXDeDris.js",
+    "name": "about",
+    "src": "src/routes/about.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_routing-uSd0btGh.js",
+      "_Counter-P0Z5F4h9.js",
+      "_components-BrlkEbL6.js"
+    ]
+  },
+  "src/routes/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-DTIdZYxY.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_routing-uSd0btGh.js",
+      "_Counter-P0Z5F4h9.js",
+      "_components-BrlkEbL6.js"
+    ]
+  },
+  "virtual:$vinxi/handler/client": {
+    "file": "assets/client-BO3-5M8J.js",
+    "name": "client",
+    "src": "virtual:$vinxi/handler/client",
+    "isEntry": true,
+    "imports": [
+      "_routing-uSd0btGh.js"
+    ],
+    "dynamicImports": [
+      "src/routes/[...404].tsx?pick=default&pick=$css",
+      "src/routes/about.tsx?pick=default&pick=$css",
+      "src/routes/index.tsx?pick=default&pick=$css"
+    ],
+    "css": [
+      "assets/client-C-luMA-t.css"
+    ]
+  }
+}
