@@ -1,55 +1,55 @@
 {
-  "_components-DpBxV_tf.js": {
-    "file": "assets/components-DpBxV_tf.js",
+  "_components-Cg9Uuy_X.js": {
+    "file": "assets/components-Cg9Uuy_X.js",
     "name": "components",
     "imports": [
-      "_web-Bar9rDn8.js"
+      "_web-Cyq1dinD.js"
     ]
   },
-  "_web-Bar9rDn8.js": {
-    "file": "assets/web-Bar9rDn8.js",
+  "_web-Cyq1dinD.js": {
+    "file": "assets/web-Cyq1dinD.js",
     "name": "web"
   },
   "src/routes/[...404].tsx?pick=default&pick=$css": {
-    "file": "assets/_...404_-DNsmyevF.js",
+    "file": "assets/_...404_-D0GrP6Vc.js",
     "name": "_...404_",
     "src": "src/routes/[...404].tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-Bar9rDn8.js",
-      "_components-DpBxV_tf.js"
+      "_web-Cyq1dinD.js",
+      "_components-Cg9Uuy_X.js"
     ]
   },
   "src/routes/about.tsx?pick=default&pick=$css": {
-    "file": "assets/about-Do-yRGxe.js",
+    "file": "assets/about-DawVUAUd.js",
     "name": "about",
     "src": "src/routes/about.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-Bar9rDn8.js",
-      "_components-DpBxV_tf.js"
+      "_web-Cyq1dinD.js",
+      "_components-Cg9Uuy_X.js"
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-DWiUCpKv.js",
+    "file": "assets/index-BG8ymdpk.js",
     "name": "index",
     "src": "src/routes/index.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-Bar9rDn8.js"
+      "_web-Cyq1dinD.js"
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-fZjGlOY7.js",
+    "file": "assets/client-BwwuDe9b.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_web-Bar9rDn8.js",
-      "_components-DpBxV_tf.js"
+      "_web-Cyq1dinD.js",
+      "_components-Cg9Uuy_X.js"
     ],
     "dynamicImports": [
       "src/routes/[...404].tsx?pick=default&pick=$css",
@@ -57,7 +57,7 @@
       "src/routes/index.tsx?pick=default&pick=$css"
     ],
     "css": [
-      "assets/client-BOEgagao.css"
+      "assets/client-BXUrzo9Y.css"
     ]
   }
 }
