@@ -10,7 +10,10 @@ const Hero = ({
   subtitle: string;
   actionName: string;
 }): JSX.Element => (
-  <div class="h-screen bg-cover bg-center flex items-center justify-center text-white">
+  <div
+    class="h-screen bg-cover bg-center flex items-center justify-center text-white"
+    style={{ "background-image": `url('/public/HomeBanner.jpg')` }}
+  >
     <div class="text-center">
       <h1 class="text-5xl font-bold mb-4">{title}</h1>
       <p class="text-xl mb-8">{subtitle}</p>

@@ -1,33 +1,35 @@
 import { A } from "@solidjs/router";
-import Counter from "~/components/Counter";
+import Hero from "~/components/Hero";
+import { isVisible } from "~/helpers/isIntersecting";
 import { Button } from "@/components/ui/button";
 
 export default function Home() {
+  let ref: HTMLElement | null = null;
+  const isVisibleBool = isVisible(() => ref);
   return (
-    <main class="text-center mx-auto text-gray-700 p-4">
-      <h1 class="max-6-xs text-6xl text-sky-700 font-thin uppercase my-16">
-        Hello world!
-      </h1>
-      <Counter />
-      <p class="mt-8">
-        Visit{" "}
-        <a
-          href="https://solidjs.com"
-          target="_blank"
-          class="text-sky-600 hover:underline"
+    <>
+      <Hero
+        title="Under Active Development"
+        subtitle="Please check back later"
+        actionName="About Me"
+      />
+      {/* Beginning of Animated Cover Page */}
+      <div class="h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900">
+        <div
+          ref={(element) => (ref = element)}
+          class={`text-center transition-opacity ease-in duration-700 ${
+            isVisibleBool() ? "opacity-100" : "opacity-0"
+          }`}
         >
-          solidjs.com
-        </a>{" "}
-        to learn how to build Solid apps.
-      </p>
-      <Button>Click Me</Button>
-      <p class="my-4">
-        <span>Home</span>
-        {" - "}
-        <A href="/about" class="text-sky-600 hover:underline">
-          About Page
-        </A>{" "}
-      </p>
-    </main>
+          <h2 class="text-4xl font-bold mb-4">About this Webpage</h2>
+          <p class="text-xl mb-8 ml-4 mr-4">
+            Read about the technology stack and development process
+          </p>
+          <Button color="primary">View Devlog</Button>
+        </div>
+      </div>
+      <h2 class="text-4xl font-bold text-center mt-5">Preview My Projects</h2>
+      <div>{/* Cards go Here */}</div>
+    </>
   );
 }
