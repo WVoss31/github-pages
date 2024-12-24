@@ -1,54 +1,55 @@
 {
-  "_Counter-DwVNdCdM.js": {
-    "file": "assets/Counter-DwVNdCdM.js",
-    "name": "Counter",
+  "_components-DpBxV_tf.js": {
+    "file": "assets/components-DpBxV_tf.js",
+    "name": "components",
     "imports": [
-      "_components-CuyLtdjL.js"
+      "_web-Bar9rDn8.js"
     ]
   },
-  "_components-CuyLtdjL.js": {
-    "file": "assets/components-CuyLtdjL.js",
-    "name": "components"
+  "_web-Bar9rDn8.js": {
+    "file": "assets/web-Bar9rDn8.js",
+    "name": "web"
   },
   "src/routes/[...404].tsx?pick=default&pick=$css": {
-    "file": "assets/_...404_-DNHg1J5h.js",
+    "file": "assets/_...404_-DNsmyevF.js",
     "name": "_...404_",
     "src": "src/routes/[...404].tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_components-CuyLtdjL.js"
+      "_web-Bar9rDn8.js",
+      "_components-DpBxV_tf.js"
     ]
   },
   "src/routes/about.tsx?pick=default&pick=$css": {
-    "file": "assets/about-CSJL0PYy.js",
+    "file": "assets/about-Do-yRGxe.js",
     "name": "about",
     "src": "src/routes/about.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_components-CuyLtdjL.js",
-      "_Counter-DwVNdCdM.js"
+      "_web-Bar9rDn8.js",
+      "_components-DpBxV_tf.js"
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-BzGN3DVD.js",
+    "file": "assets/index-DWiUCpKv.js",
     "name": "index",
     "src": "src/routes/index.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_components-CuyLtdjL.js",
-      "_Counter-DwVNdCdM.js"
+      "_web-Bar9rDn8.js"
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-DO7ZpAah.js",
+    "file": "assets/client-fZjGlOY7.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_components-CuyLtdjL.js"
+      "_web-Bar9rDn8.js",
+      "_components-DpBxV_tf.js"
     ],
     "dynamicImports": [
       "src/routes/[...404].tsx?pick=default&pick=$css",
@@ -56,7 +57,7 @@
       "src/routes/index.tsx?pick=default&pick=$css"
     ],
     "css": [
-      "assets/client-C-luMA-t.css"
+      "assets/client-BOEgagao.css"
     ]
   }
 }
