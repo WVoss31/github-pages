@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { JSX } from "solid-js";
-import HomeBanner from "/HomeBanner.jpg";
+import HomeBanner from "/public/HomeBanner.jpg";
 
 const Hero = ({
   title,
