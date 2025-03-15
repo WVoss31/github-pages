@@ -4,9 +4,7 @@
   "scripts": {
     "dev": "vinxi dev",
     "build": "vinxi build",
-    "start": "vinxi start",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "start": "vinxi start"
   },
   "dependencies": {
     "@kobalte/core": "^0.13.7",
@@ -31,17 +29,5 @@
   },
   "engines": {
     "node": ">=18"
-  },
-  "devDependencies": {
-    "@chromatic-com/storybook": "^3.2.3",
-    "@storybook/addon-essentials": "^8.4.7",
-    "@storybook/addon-interactions": "^8.4.7",
-    "@storybook/blocks": "^8.4.7",
-    "@storybook/builder-vite": "^8.4.7",
-    "@storybook/core": "^8.4.7",
-    "@storybook/test": "^8.4.7",
-    "storybook": "^8.4.7",
-    "storybook-solidjs": "^1.0.0-beta.6",
-    "storybook-solidjs-vite": "^1.0.0-beta.6"
   }
 }
