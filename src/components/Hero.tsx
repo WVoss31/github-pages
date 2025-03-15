@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { JSX } from "solid-js";
+import HomeBanner from "/HomeBanner.jpg";
 
 const Hero = ({
   title,
@@ -12,7 +13,7 @@ const Hero = ({
 }): JSX.Element => (
   <div
     class="h-screen bg-cover bg-center flex items-center justify-center text-white"
-    style={{ "background-image": "URL('/HomeBanner.jpg')" }}
+    style={{ "background-image": `URL(${HomeBanner})` }}
   >
     <div class="text-center">
       <h1 class="text-5xl font-bold mb-4">{title}</h1>
